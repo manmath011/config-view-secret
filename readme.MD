@@ -1,35 +1,4 @@
-Sure! Here's an HTML page code for your `README.md` file that includes the given commands in an organized manner:
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>kubectl Commands</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            line-height: 1.6;
-        }
-        h1 {
-            text-align: center;
-        }
-        pre {
-            background-color: #f4f4f4;
-            padding: 10px;
-            border: 1px solid #ddd;
-            overflow-x: auto;
-        }
-        code {
-            font-family: Consolas, "Courier New", monospace;
-        }
-    </style>
-</head>
-<body>
-    <h1>kubectl Commands</h1>
-    <pre><code>
 kubectl create configmap configmap1 --from-literal=name=first-configmap
 1992  minikube start
 1993  kubectl create configmap configmap1 --from-literal=name=first-configmap
@@ -78,8 +47,7 @@ kubectl create configmap configmap1 --from-literal=name=first-configmap
 2036  kubectl describe secret db-secret
 2037  kubectl apply -f secret1.yml
 2038  cd secret
-    </code></pre>
-</body>
+  
 </html>
 ```
 
